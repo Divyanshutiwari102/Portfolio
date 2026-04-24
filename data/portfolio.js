@@ -8,9 +8,9 @@ export const personal = {
   linkedin: 'https://www.linkedin.com/in/divyanshu-tiwari-42b156289/',
   leetcode: 'https://leetcode.com/u/divyanshutiwari337',
   about: [
-    "I'm a backend-heavy full stack developer currently in my second year at IILM University (CGPA 8.8). I build things that are meant to hold up — production-grade APIs, LLM pipelines, real-time data systems.",
-    "My recent work spans adaptive RAG with pgvector and Resilience4j, deep packet inspection engines in Java, and a YOLOv8-based traffic optimizer. I care about correctness over cleverness — circuit breakers, ACID guarantees, proper rate limiting.",
-    "On the side, 250+ LeetCode problems and two hackathon placements. Currently exploring multi-agent systems and edge ML deployment."
+    "I’m a backend-focused full stack developer who builds systems designed to scale, perform, and hold up under real-world conditions. My work centers around production-grade APIs, distributed backend systems, and intelligent pipelines powered by modern AI.
+     I’ve recently worked on adaptive RAG systems using pgvector and Resilience4j, deep packet inspection engines in Java, and computer vision–based optimization systems using YOLOv8. I prioritize reliability and correctness — implementing circuit breakers, enforcing ACID guarantees, and designing robust rate-limiting and fault-tolerant architectures.
+     Beyond projects, I maintain strong problem-solving skills with 250+ LeetCode problems solved across data structures and algorithms. I’m currently exploring multi-agent systems, scalable backend design, and edge ML deployment."
   ]
 }
 
