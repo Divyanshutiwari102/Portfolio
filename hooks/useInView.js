@@ -5,6 +5,12 @@ export function useInView(options = {}) {
   const [inView, setInView] = useState(false)
 
   useEffect(() => {
+    // ✅ SSR guard
+    if (typeof window === 'undefined' || !('IntersectionObserver' in window)) {
+      setInView(true)
+      return
+    }
+
     const el = ref.current
     if (!el) return
 
@@ -19,6 +25,7 @@ export function useInView(options = {}) {
     )
 
     observer.observe(el)
+
     return () => observer.disconnect()
   }, [])
 
